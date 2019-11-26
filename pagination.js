@@ -1,4 +1,6 @@
-﻿$(function() {
+<script type='text/javascript'>
+//<![CDATA[
+$(function() {
  $("#load-more-link")["each"](function() {
         var a = $(this),
             b = a["data"]("load");
@@ -29,3 +31,5 @@
         });
     });
 });
+//]]>
+</script>
